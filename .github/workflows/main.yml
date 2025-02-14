@@ -45,7 +45,7 @@ jobs:
             [ ! -d "${HOME}/senpro/492989/modul02/senpro-github-action/" ] &&
               {
                 echo "Repository belum di-clone. Cloning...";
-                mkdir -p ~senpro/492989/modul02;
+                mkdir -p ~/senpro/492989/modul02;
                 cd ~/senpro/492989/modul02;
                 git clone https://github.com/Anantadhirya/senpro-github-action;
                 cd ~/senpro/492989/modul02/senpro-github-action;
